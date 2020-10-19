@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+}
+.slide-img-div img{
+    width: 50%;
+}
+.img-div{
+    min-height: 100vh;
+    padding: 120px 0px;
+}
+
+.img-text-div p{
+    margin: 0;
+    font-size: 31px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+}
+.img-text-div span{
+    color: #1b9a85;
+}
+.swiper-pagination-bullet{
+    position: relative;
+    top: 20px;
+    width: 30px !important;
+    height: 8px !important;
+    padding-right: 10px !important;
+    display: inline-block !important;
+    border-radius: 2px !important;
+    margin: 10px 5px !important;
+    background: #1b9a85 !important;
+    opacity: .2 !important;
+}
+.swiper-pagination-bullet-active{
+    opacity: 1 !important;
+}
+.next-btn{
+    bottom: -50px;
+    position: absolute;
+    right: 36px;
+}
+.next-btn i {
+    padding: 5px;
+    color: lightgray;
+    border: 1px solid;
+}
+.prev-btn{
+    bottom: -50px;
+    position: absolute;
+    right: 70px;
+}
+.prev-btn i {
+    padding: 5px;
+    color: lightgray;
+    border: 1px solid;
+}
+
+.box-shade{
+    box-shadow: 0 5px 26px rgba(0,0,0,0.12), 0 6px 7px rgba(0,0,0,0.13);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+/* side image css  */
+
+.side-img-div {
+    position: absolute;
+    top: 34%;
+    left: 0px;
+}
+
+.top-img-div{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bottom-img-div{
+    position: absolute;
+    bottom: 0;
+    left: -118px;
+}
+.bottom-img-div img{
+    width: 60%;
+}
+.form-div{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    padding: 40px 0px;
+
+}
+
+.header{
+    padding: 20px 40px;
+    text-align: center;
+}
+.header .colo{
+    color: #1b9a85;
+}
+.form .form-control{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border: none;
+}
+.form-control label{
+    margin: 5px;
+    display: inline-block;
+
+}
+.form-control input{
+    display: block;
+    width: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 4px;
+    padding: 10px;
+}
+.form-control.success input{
+    border-color: green;  
+}
+.form-control.error input{
+    border-color: red;   
+}
+.form-control i{
+    position: absolute;
+    top: 56px;
+    right: 20px;
+    visibility: hidden;
+}
+.form-control span #hide1{
+    position: absolute;
+    top: 56px;
+    right: 40px;
+    display: none;
+    visibility: hidden;
+}
+.form-control span #hide2{
+    position: absolute;
+    top: 56px;
+    right: 40px;
+    display: block !important;
+    visibility: visible;
+}
+
+.form-control.success .fa-check-circle{
+    color: green;
+    visibility: visible;
+}
+.form-control.error .fa-exclamation-circle{
+    color: red;
+    visibility: visible;
+}
+.form-control small{
+    position: absolute;
+    bottom: -17px;
+    left: 16px;
+    padding: 5px;
+    visibility: hidden;
+}
+.form-control.error small{
+    visibility: visible;
+    color: red;
+}
+.form-div button{
+    width: 100%;
+    color: #fff;
+    background: #1b9a85;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.form-div button:hover{
+    text-decoration: none;
+    border: none;
+}
+.form-text{
+    margin-top: 0px;
+    padding: 10px;
+}
+.form-text p{
+    font-size: 13px;
+    margin: 0;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: lightgray;
+}
+.form-text span{
+    color: aqua;
+}
+.or{
+    position: relative;
+    bottom: -40px;
+    left: 47%;
+    width: 35px;
+    height: 32px;
+    padding: 3px 3px 5px 10px;
+    background: lightgray;
+    color: #fff;
+    border-radius:50px
+}
+.line{
+    position: absolute;
+    border: 1px solid black dotted linen;
+    border-bottom: 2px dashed;
+    border-color: lightgrey;
+    width: 70%;
+    bottom: -9px;
+    left: 77px;
+    z-index: -1;
+    height: -2px;
+}
+.sign-text{
+    position: absolute;
+    top: 36px;
+    width: 100%;
+}
+.sign-img-div .img-1{
+    position: relative;
+    width: 20%;
+    left: -30px;
+}
+.sign-img-div .img-2{
+    position: relative;
+    width: 20%;
+    right: -30px;
+}
+.ext-text{
+    position: absolute;
+    left: 80px;
+    top: 150px;
+}
+.ext-text p{
+    margin-bottom: 0;
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+}
+.ext-text span{
+    color: #1b9a85;
+}
